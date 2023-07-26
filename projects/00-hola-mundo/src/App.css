@@ -1,0 +1,78 @@
+article {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: .8rem;
+    justify-content: space-between;
+}
+
+article header {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+article header div {
+    display: flex;
+    flex-direction: column;
+}
+
+article header span {
+    opacity: .6;
+}
+
+article img {
+    height: 48px;
+    width: 48px;
+    border-radius: 1000px;
+}
+
+.button {
+    cursor: pointer;
+    margin-left: 16px;
+    border: 0;
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-weight: bold;
+    border: 1px solid #000;
+    transition: .3s ease background-color;
+}
+
+.is-Following {
+    border: 1px solid #bbb;
+    background: transparent;
+    color: #fff;
+    width: 140px;
+}
+
+button.is-Following:hover {
+    background-color: rgb(255, 0, 0, 0.178);
+    color: #fff;
+    border: 1px solid red;
+    transition: .3s ease all;
+    opacity: 1;
+}
+
+.is-Following:hover {
+    background-color: red;
+}
+
+article button.is-Following:hover {
+    opacity: .8;
+}
+
+.tw-followcard-stopFollowing {
+    display: none;
+}
+
+article button.is-Following:hover .tw-followCard-text {
+    display: none;
+}
+article button.is-Following:hover .tw-followcard-stopFollowing {
+    display: block;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #222;
+}
