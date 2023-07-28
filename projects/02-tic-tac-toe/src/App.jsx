@@ -61,9 +61,9 @@ function App() {
 
   // se utiliza para ejecutar codigo bajo algun efecto
   //ganar una partida y q se guarde ne la BD 
-  useEffect(()=>{
+  useEffect(() => {
     console.log('useEffect')
-  },[winner])
+  }, [winner])
 
   return (
     <main className="board">
