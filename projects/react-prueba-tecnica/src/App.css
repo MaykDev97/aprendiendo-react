@@ -1,0 +1,26 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: system-ui;
+    color: #adadad;
+    
+}
+body{
+    background-color: rgb(15, 7, 35);
+}
+/*
+section{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+}*/
+
+section img{
+    width: 320px;
+    height: auto;
+}
